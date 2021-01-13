@@ -5,5 +5,5 @@
     "van-loading": "@vant/weapp/loading/index",
     "van-popup": "@vant/weapp/popup/index"
   },
-  "navigationBarTitleText": "红包封面"
+  "navigationBarTitleText": ""
 }

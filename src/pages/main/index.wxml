@@ -1,0 +1,41 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="hbfm-c" >
+    <view class="hbfm-item">
+      <van-transition show="{{ show }}" name="fade-up" duration="{{ { enter: 1500, leave: 2000 } }}">
+        <view class="pfb-q">
+          <view class="fm-box"></view>
+          <view class="fm-img">
+            <image src="{{fitem.img}}" class="fm0-img" />
+          </view>
+        </view>
+      </van-transition>
+    </view>
+  </view>
+  <van-transition show="{{ show }}" name="fade" duration="{{ { enter: 1500, leave: 2000 } }}">
+  <view class="fm-xq" >
+    <view class="xq">{{fitem.name}}</view>
+    <view class="tm">{{fitem.data}}</view>
+    <view class="btn-list">
+      <van-button bindtap="goqrcode" custom-class="cccs-tbn" color="linear-gradient(to right, #FF4500, #EE4000)" size="normal">
+        点击领取
+      </van-button>
+      <van-button custom-class="cccs-tbn" color="linear-gradient(to right, #FF4500, #EE4000)" open-type="share" size="normal">
+        送给朋友
+      </van-button>
+    </view>
+  </view>
+  </van-transition>
+</view>
+<van-popup show="{{ showPop }}" position="bottom" closeable custom-style="height: 80%" bind:close="onClosePop">
+  <van-transition show="{{ showPop }}" name="fade" duration="{{ { enter: 1500, leave: 2000 } }}">
+    <view class="popover-b" wx:if="{{fitem.qrcode}}">
+      <canvas style="width: 200px; height: 200px;display:{{showPop?'block':'none'}};" canvas-id="myQrcode"></canvas>
+    </view>
+  </van-transition>
+  <view class="zysx">{{fitem.text}}</view>
+  <view class="zysx-desc">{{fitem.desc}}</view>
+</van-popup>
+<van-popup show="{{ showLoading }}" bind:close="onClose" overlay-style="background:rgba(0,0,0,0)" custom-style="background:rgba(0,0,0,0)">
+  <van-loading color="#8B0A50" size="60" >{{dateText}}</van-loading>
+</van-popup>

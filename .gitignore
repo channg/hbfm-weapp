@@ -1,0 +1,4 @@
+src/node_modules
+cloud/**/node_modules
+src/miniprogram_npm/*
+cloud/database_export-pooQgfcB2NfW.json

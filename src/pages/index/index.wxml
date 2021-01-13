@@ -1,0 +1,77 @@
+<!-- index.wxml -->
+<view class="container" >
+  <view class="hbfm-c" >
+    <van-transition show="{{ list1.length>0 }}" name="fade-up" duration="{{ { enter: 800, leave: 800 } }}">
+      <view class="hbfm-item"  wx:for="{{list1}}" wx:key="_id" style="{{index%2===1?'flex-direction:row-reverse;':''}}">
+        <view class="pfb-q">
+          <view class="fm-box"></view>
+          <view class="fm-img">
+            <image src="{{item.img}}" class="fm0-img" />
+          </view>
+        </view>
+        <view class="fm-xq">
+          <view class="xq">{{item.name}}</view>
+          <view class="tm">{{item.date}}</view>
+          <van-button color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+            点击领取红包封面
+          </van-button>
+        </view>
+      </view>
+    </van-transition>
+    <van-transition show="{{ list2.length>0 }}" name="fade-up" duration="{{ { enter: 800, leave: 800 } }}">
+      <view class="hbfm-item"  wx:for="{{list2}}" wx:key="_id" style="flex-direction:row-reverse;">
+        <view class="pfb-q">
+          <view class="fm-box"></view>
+          <view class="fm-img">
+            <image src="{{item.img}}" class="fm0-img" />
+          </view>
+        </view>
+        <view class="fm-xq">
+          <view class="xq">{{item.name}}</view>
+          <view class="tm">{{item.date}}</view>
+          <van-button color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+            点击领取红包封面
+          </van-button>
+        </view>
+      </view>
+    </van-transition>
+    <van-transition show="{{ list3.length>0 }}" name="fade-up" duration="{{ { enter: 800, leave: 800 } }}">
+      <view class="hbfm-item"  wx:key="_id" wx:for="{{list3}}">
+        <view class="pfb-q">
+          <view class="fm-box"></view>
+          <view class="fm-img">
+            <image src="{{item.img}}" class="fm0-img" />
+          </view>
+        </view>
+        <view class="fm-xq">
+          <view class="xq">{{item.name}}</view>
+          <view class="tm">{{item.date}}</view>
+          <van-button color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+            点击领取红包封面
+          </van-button>
+        </view>
+      </view>
+    </van-transition>
+    <van-transition show="{{ list4.length>0 }}" name="fade-up" duration="{{ { enter: 800, leave: 800 } }}">
+      <view class="hbfm-item"  wx:key="_id" wx:for="{{list4}}" style="{{index%2===0?'flex-direction:row-reverse;':''}}">
+        <view class="pfb-q">
+          <view class="fm-box"></view>
+          <view class="fm-img">
+            <image src="{{item.img}}" class="fm0-img" />
+          </view>
+        </view>
+        <view class="fm-xq">
+          <view class="xq">{{item.name}}</view>
+          <view class="tm">{{item.date}}</view>
+          <van-button color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+            点击领取红包封面
+          </van-button>
+        </view>
+      </view>
+    </van-transition>
+    
+  </view>
+</view>
+<van-popup show="{{ showLoading }}" bind:close="onClose" overlay-style="background:rgba(0,0,0,0)" custom-style="background:rgba(0,0,0,0)">
+  <van-loading color="#8B0A50" size="60" >{{dateText}}</van-loading>
+</van-popup>

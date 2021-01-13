@@ -3,6 +3,10 @@
 视频效果
 <a href="https://streamja.com/qVJNl">https://streamja.com/qVJNl</a>
 
+
+<img src="https://i.loli.net/2021/01/13/h4MX68AFeWwqNyT.png" width="200" style="float:left"/>
+
+
 使用云开发  与 vant
 
 * 云开发

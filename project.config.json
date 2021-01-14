@@ -18,6 +18,7 @@
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
+		"uglifyFileName": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -25,8 +26,7 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"uglifyFileName": true
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.14.3",
@@ -68,6 +68,12 @@
 					"name": "pages/main/index",
 					"pathName": "pages/main/index",
 					"query": "id=7489a5d35ffc90820006326245caa512",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/lbfm/index",
+					"pathName": "pages/lbfm/index",
 					"scene": null
 				}
 			]

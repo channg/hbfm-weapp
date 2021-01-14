@@ -1,7 +1,7 @@
 ### 红包封面微信小程序
 
 视频效果
-<a href="https://streamja.com/qVJNl">https://streamja.com/qVJNl</a>
+<a href="https://streamja.com/ZJrMQ">https://streamja.com/ZJrMQ</a>
 
 
 <img src="https://i.loli.net/2021/01/13/h4MX68AFeWwqNyT.png" width="200" style="float:left"/>

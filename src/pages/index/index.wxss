@@ -79,3 +79,71 @@ page .van-loading__spinner--circular {
   margin-left: 30rpx!important;
   font-size: 30rpx!important;
 }
+
+/* sh */
+page {
+  height: 100%;
+}
+
+.canvas {
+  width: 750rpx;
+  height: 100%;
+  position: relative;
+}
+
+.absolu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  z-index: 100;
+}
+
+.bar-dairuzhu {
+  height: 76rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+}
+
+.set-img {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.set-img2 {
+  height: 40rpx;
+  width: 40rpx;
+  margin-left: 28rpx;
+}
+
+.setting-view {
+  padding-top: 80rpx;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.fs {
+  display: block;
+  float: right;
+  position: absolute;
+  bottom: 40rpx;
+  right: 30rpx;
+}
+
+.bc {
+  display: block;
+  float: right;
+  position: absolute;
+  bottom: 50rpx;
+  right: 220rpx;
+}
+
+.gg {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

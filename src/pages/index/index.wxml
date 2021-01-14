@@ -12,7 +12,7 @@
         <view class="fm-xq">
           <view class="xq">{{item.name}}</view>
           <view class="tm">{{item.date}}</view>
-          <van-button wx:if="{{item.by1}}" color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+          <van-button  color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
             点击领取红包封面
           </van-button>
         </view>
@@ -29,7 +29,7 @@
         <view class="fm-xq">
           <view class="xq">{{item.name}}</view>
           <view class="tm">{{item.date}}</view>
-          <van-button  wx:if="{{iem.by1}}" color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+          <van-button   color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
             点击领取红包封面
           </van-button>
         </view>
@@ -46,7 +46,7 @@
         <view class="fm-xq">
           <view class="xq">{{item.name}}</view>
           <view class="tm">{{item.date}}</view>
-          <van-button  wx:if="{{iem.by1}}" color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+          <van-button  color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
             点击领取红包封面
           </van-button>
         </view>
@@ -63,13 +63,12 @@
         <view class="fm-xq">
           <view class="xq">{{item.name}}</view>
           <view class="tm">{{item.date}}</view>
-          <van-button  wx:if="{{item.by1}}" color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
+          <van-button   color="linear-gradient(to right,  #FF4500, #EE4000)" bindtap="goitem" data-id="{{item._id}}" size="small">
             点击领取红包封面
           </van-button>
         </view>
       </view>
     </van-transition>
-    
   </view>
 </view>
 <van-popup show="{{ showLoading }}" bind:close="onClose" overlay-style="background:rgba(0,0,0,0)" custom-style="background:rgba(0,0,0,0)">

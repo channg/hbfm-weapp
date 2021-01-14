@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vant/weapp": "^1.6.4"
+    "@vant/weapp": "^1.6.4",
+    "tweenjs": "^1.0.2"
   }
 }

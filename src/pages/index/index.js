@@ -11,6 +11,7 @@ Page({
     list2: [],
     list3: [],
     list4: [],
+    sh: true,
   },
   // 事件处理函数
   bindViewTap() {
@@ -40,11 +41,7 @@ Page({
   },
   async onLoad() {
     let list = app.globalData.list
-
-    wx.showShareMenu();
-
-
-
+   
     if (list.length === 0) {
       this.setData({
         showLoading: true,
@@ -53,19 +50,20 @@ Page({
       list = await app.getList()
       app.globalData.list = list
     }
+    wx.showShareMenu();
     this.setData({
       list,
-      list1: list[0]?[list[0]]:[],
+      list1: list[0] ? [list[0]] : [],
       showLoading: false,
     })
     setTimeout(() => {
       this.setData({
-        list2: list[1]?[list[1]]:[]
+        list2: list[1] ? [list[1]] : []
       })
     }, 300)
     setTimeout(() => {
       this.setData({
-        list3: list[2]?[list[2]]:[]
+        list3: list[2] ? [list[2]] : []
       })
     }, 600)
 

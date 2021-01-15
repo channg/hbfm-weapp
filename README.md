@@ -1,15 +1,11 @@
-<h1 align="center">红包封面微信小程序</center></h3>
+<h2 align="center">红包封面微信小程序</h3>
 
+<p align="center">
 <img src="https://i.loli.net/2021/01/15/WsEz2TDLQ1fbV8Z.png" align="center"/>
-
-视频效果
-<a href="https://streamja.com/ZJrMQ">https://streamja.com/ZJrMQ</a>
+</p>
 
 
-<img src="https://i.loli.net/2021/01/13/h4MX68AFeWwqNyT.png" width="200" style="float:left"/>
-
-
-使用云开发  与 vant
+<h3 align="center">使用云开发  与 vant</h3>
 
 ##### 云开发
 * 创建云开发 并在app.js 中替换 env

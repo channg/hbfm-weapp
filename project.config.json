@@ -4,6 +4,7 @@
 		"ignore": []
 	},
 	"cloudfunctionRoot": "cloud/",
+	"miniprogramNpmDistDir": ".",
 	"miniprogramRoot": "src/",
 	"qcloudRoot": "cloud/",
 	"setting": {
@@ -27,6 +28,7 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		}
+		
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.14.3",

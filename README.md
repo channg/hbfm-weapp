@@ -14,7 +14,7 @@
 * 将cloud下 json.json 导入到fmlist云数据库中 
 
 ##### vant 
-* cd src
+* cd src 运行 npm i
 * 在开发者工具点击 工具 构建npm
 * 重新打开 开发者工具一次
 

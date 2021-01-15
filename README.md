@@ -1,7 +1,7 @@
 <h2 align="center">红包封面微信小程序</h3>
 
 <p align="center">
-<img width="100" src="https://i.loli.net/2021/01/15/WsEz2TDLQ1fbV8Z.png" align="center"/>
+<img width="120" src="https://i.loli.net/2021/01/15/WsEz2TDLQ1fbV8Z.png" align="center"/>
 </p>
 
 
@@ -27,7 +27,7 @@
 
 ---
 
-
+<center class="half">
 <img src="https://i.loli.net/2021/01/13/12thkWOmGYdQq9Z.png" width="200" style="float:left"/>
 <img src="https://i.loli.net/2021/01/13/i2mYon5jb4kchaP.png" width="200" style="float:left"/>
-
+</center>

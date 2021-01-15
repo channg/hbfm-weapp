@@ -27,8 +27,15 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
-		
+		},
+		"packNpmManually": true,
+		"packNpmRelationList": [
+			{
+				"packageJsonPath": "./package.json",
+				"miniprogramNpmDistDir": "./src/"
+			}
+		],
+		"minifyWXSS": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.14.3",

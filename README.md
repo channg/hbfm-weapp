@@ -33,5 +33,5 @@
   
   
   
-<img src="https://i.loli.net/2021/01/13/i2mYon5jb4kchaP.png" width="200" />
+
 </p>

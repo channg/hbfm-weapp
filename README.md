@@ -27,7 +27,7 @@
 
 ---
 
-<p float="center">
+<p align="center">
 <img src="https://i.loli.net/2021/01/13/12thkWOmGYdQq9Z.png" width="200" />
 <img src="https://i.loli.net/2021/01/13/i2mYon5jb4kchaP.png" width="200" />
 </p>

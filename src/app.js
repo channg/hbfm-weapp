@@ -11,7 +11,7 @@ App({
     if (gpromise) {
       return gpromise
     } else {
-      gpromise = new Promise((resolve) => {
+      gpromise = new Promise((resolve,reject) => {
         wx.cloud.init({
           env: 'lbfm-tpnqm',
         });
